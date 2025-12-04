@@ -8,7 +8,7 @@ fun main() {
 
     val regularSalaryExpenses = regularEmployeesCount * regularSalary
 
-    val totalSalaryExpenses =  regularSalaryExpenses + (internsCount * internSalary)
+    val totalSalaryExpenses = regularSalaryExpenses + (internsCount * internSalary)
 
     val totalEmployees = regularEmployeesCount + internsCount
     val averageSalary = totalSalaryExpenses / totalEmployees
