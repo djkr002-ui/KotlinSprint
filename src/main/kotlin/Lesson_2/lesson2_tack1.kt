@@ -10,5 +10,5 @@ fun main() {
     val sumOfRatings = studentAssessment1 + studentAssessment2 + studentAssessment3 + studentAssessment4
     val averageScore = sumOfRatings / studentsCount.toDouble()
 
-    println(String.format("%02d", averageScore))
+    println(String.format("%.2f", averageScore))
 }
