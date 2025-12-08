@@ -5,8 +5,8 @@ fun main() {
 
     val todaysDay = day % 2 == 0
 
-    println("Упражнения для рук:       ${todaysDay == false}\n" +
-            "Упражнения для ног:       ${todaysDay == true}\n" +
-            "Упражнения для спины:     ${todaysDay == true}\n" +
-            "Упражнения для пресса:    ${todaysDay == false}")
+    println("Упражнения для рук:       ${!todaysDay}\n" +
+            "Упражнения для ног:       ${todaysDay}\n" +
+            "Упражнения для спины:     ${todaysDay}\n" +
+            "Упражнения для пресса:    ${!todaysDay}")
 }
