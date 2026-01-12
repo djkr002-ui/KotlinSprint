@@ -1,4 +1,4 @@
-package org.example.Lesson_3
+﻿package org.example.Lesson_3
 
 fun main() {
     val playerMoves: String = "D2-D4;0"
