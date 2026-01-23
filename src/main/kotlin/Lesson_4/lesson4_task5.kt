@@ -21,6 +21,7 @@ fun main() {
                 numberFoodCratesBoard >= PROVISIONS)
     ) {
         println("Корабль может отправиться в плавание.")
+    } else {
+        println("Корабль не может отправиться в плавание.")
     }
-    println("Корабль не может отправиться в плавание.")
 }
